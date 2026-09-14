@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Rehman Beauty Salon | Liberty Market Lahore</title>
+  <meta name="description" content="Get in touch with Rehman Beauty Salon located at 24 Commercial Zone, Liberty Market, Gulberg 3, Lahore. Phone: +92 42 35876975. Open Daily 10 AM - 8 PM.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://example.com/contact.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header" id="site-header">
+    <div class="container header__container">
+      <a href="index.html" class="logo" aria-label="Rehman Beauty Salon Home">
+        <span class="logo__title">REHMAN</span>
+        <span class="logo__subtitle">BEAUTY SALON</span>
+      </a>
+
+      <nav class="nav" id="main-nav" aria-label="Primary Navigation">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="services.html" class="nav__link">Services</a></li>
+          <li class="nav__item"><a href="contact.html" class="nav__link active" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="tel:+924235876975" class="btn btn--secondary btn--sm header__cta">CALL NOW</a>
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle Menu">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="inner-hero">
+      <div class="container text-center">
+        <span class="badge badge--gold">GET IN TOUCH</span>
+        <h1 class="inner-hero__title">Contact Rehman Beauty Salon</h1>
+        <p class="inner-hero__subtitle">We welcome your inquiries and look forward to assisting you.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid--2">
+          <!-- Information Sidebar -->
+          <div class="contact-info-panel">
+            <h2 class="section__title">Salon Details</h2>
+            <p class="text-body">For direct answers, scheduling checks, or location assistance, call our verified phone line below.</p>
+
+            <div class="contact-card margin-top-md">
+              <h3>Phone</h3>
+              <p><a href="tel:+924235876975" class="contact-link">+92 42 35876975</a></p>
+              <p><a href="tel:+924235876975" class="contact-link">(042) 35876975</a></p>
+            </div>
+
+            <div class="contact-card margin-top-md">
+              <h3>Address</h3>
+              <p>24 Commercial Zone, Liberty Market Rd, Liberty Market, Gulberg 3, Lahore, Punjab, Pakistan</p>
+              <a href="https://www.google.com/maps/search/?api=1&query=24+Commercial+Zone,+Liberty+Market+Rd,+Liberty+Market,+Gulberg+3,+Lahore,+Punjab,+Pakistan" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm margin-top-sm">GET DIRECTIONS</a>
+            </div>
+
+            <div class="contact-card margin-top-md">
+              <h3>Operating Hours</h3>
+              <p>Monday – Sunday: 10:00 AM – 8:00 PM</p>
+              <p><em>Open Daily</em></p>
+            </div>
+
+            <!-- Placeholder section requiring owner configuration -->
+            <div class="placeholder-box margin-top-md">
+              <p class="placeholder-text"><em>Note: Additional digital channels (WhatsApp / Email) will be listed once confirmed by the salon owner. For immediate assistance, please use the primary phone number provided.</em></p>
+            </div>
+          </div>
+
+          <!-- Contact Form Panel -->
+          <div class="contact-form-panel">
+            <h2 class="section__title">Send an Online Message</h2>
+            <p class="text-body margin-bottom-md">Fill out the form below for general queries. For immediate booking or urgent inquiries, calling is recommended.</p>
+
+            <form id="contact-form" class="form" novalidate>
+              <div id="form-feedback" class="form-feedback" aria-live="polite"></div>
+
+              <div class="form-group">
+                <label for="full-name" class="form-label">Full Name <span class="required">*</span></label>
+                <input type="text" id="full-name" name="name" class="form-control" required placeholder="Your full name">
+              </div>
+
+              <div class="form-group">
+                <label for="phone-number" class="form-label">Phone Number <span class="required">*</span></label>
+                <input type="tel" id="phone-number" name="phone" class="form-control" required placeholder="e.g., 0300 1234567">
+              </div>
+
+              <div class="form-group">
+                <label for="enquiry-type" class="form-label">Inquiry Type</label>
+                <select id="enquiry-type" name="enquiry_type" class="form-control">
+                  <option value="General Query">General Query</option>
+                  <option value="Hair Services">Hair Services</option>
+                  <option value="Beauty & Skincare">Beauty &amp; Skincare</option>
+                  <option value="Grooming">Grooming</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" class="form-control" rows="5" required placeholder="How can we help you?"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full">SUBMIT INQUIRY</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="grid grid--4 footer__grid">
+        <div class="footer__col">
+          <a href="index.html" class="logo logo--footer">
+            <span class="logo__title">REHMAN</span>
+            <span class="logo__subtitle">BEAUTY SALON</span>
+          </a>
+          <p class="footer__text">Established beauty salon situated in Liberty Market, Gulberg 3, Lahore. Open daily.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services Catalogue</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Legal</h4>
+          <ul class="footer__links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Contact Info</h4>
+          <p class="footer__info">24 Commercial Zone, Liberty Market Rd, Liberty Market, Gulberg 3, Lahore, Punjab</p>
+          <p class="footer__info"><strong>Phone:</strong> <a href="tel:+924235876975">+92 42 35876975</a></p>
+          <p class="footer__info"><strong>Hours:</strong> Daily 10:00 AM – 8:00 PM</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Rehman Beauty Salon. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="animations.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
